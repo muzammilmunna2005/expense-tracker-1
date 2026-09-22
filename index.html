@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Expense Tracker</h1>
+
+        <!-- Add Expense -->
+        <div class="card">
+
+            <h2>Add Expense</h2>
+
+            <input
+                type="number"
+                id="amount"
+                placeholder="Enter amount"
+            >
+
+            <select id="category">
+
+                <option value="Food">Food</option>
+                <option value="Travel">Travel</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+
+            </select>
+
+            <button onclick="addExpense()">
+                Add Expense
+            </button>
+
+        </div>
+
+
+        <!-- Category Summary -->
+        <div class="card">
+
+            <h2>Category Summary</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Category</th>
+                        <th>Total</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="categoryTable">
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- Total -->
+        <div class="total-box">
+
+            <h2>Total Expenses</h2>
+
+            <div id="total">
+                ₹0
+            </div>
+
+        </div>
+
+
+        <!-- Individual Expenses -->
+        <div class="card">
+
+            <h2>All Expenses</h2>
+
+            <div id="expenseList"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

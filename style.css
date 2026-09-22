@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f5f9;
+
+    margin: 0;
+
+    padding: 40px;
+}
+
+
+.container {
+    max-width: 650px;
+
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+
+    color: #2563eb;
+
+    margin-bottom: 30px;
+}
+
+
+.card,
+.total-box {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+input,
+select {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+
+button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+
+    background-color: #1d4ed8;
+}
+
+
+/* Table */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+
+    text-align: left;
+}
+
+
+th {
+
+    background-color: #2563eb;
+
+    color: white;
+}
+
+
+td:last-child,
+th:last-child {
+
+    text-align: right;
+}
+
+
+/* Total */
+
+.total-box {
+
+    text-align: center;
+}
+
+
+#total {
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    color: #16a34a;
+}
+
+
+/* Individual expenses */
+
+.expense-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    background-color: #f5f5f5;
+
+    border-radius: 6px;
+}
+
+
+.delete-button {
+
+    width: auto;
+
+    padding: 6px 10px;
+
+    background-color: #dc2626;
+}
+
+
+.delete-button:hover {
+
+    background-color: #b91c1c;
+}
